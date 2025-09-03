@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "IFungi",
+    "slug": "IFungi",
+    "version": "1.0.0",
+    "icon": "./assets/images/fotinha/IFUNGI.jpg",
+    "plugins": [
+      "expo-router",
+      "expo-barcode-scanner",
+      "react-native-wifi-reborn"
+    ],
+    "android": {
+      "permissions": [
+        "android.permission.CAMERA",
+        "ACCESS_WIFI_STATE",
+        "CHANGE_WIFI_STATE",
+        "ACCESS_NETWORK_STATE",
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_WIFI_STATE",
+        "CHANGE_WIFI_STATE",
+        "ACCESS_WIFI_STATE",
+        "CHANGE_WIFI_STATE"
+      ],
+      "package": "com.anonymous.IFungi"
+    },
+    "extra": {
+      "firebaseApiKey": "AIzaSyCvYviNXIj0PpO8G5k_4Pz0imxOsEX-BQE",
+      "firebaseAuthDomain": "pfi-ifungi.firebaseapp.com",
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "61315bff-1a62-4ff8-bb14-cb2710629647"
+      }
+    },
+    "owner": "piazao"
+  }
+}
