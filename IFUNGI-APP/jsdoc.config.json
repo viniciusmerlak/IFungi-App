@@ -1,0 +1,12 @@
+{
+  "source": {
+    "include": ["./src/services", "./src/types"],
+    "includePattern": "\\.(js)$",
+    "excludePattern": "(node_modules/|docs/)"
+  },
+  "opts": {
+    "recurse": true,
+    "destination": "./docs-jsdoc/",
+    "template": "node_modules/minami"
+  }
+}

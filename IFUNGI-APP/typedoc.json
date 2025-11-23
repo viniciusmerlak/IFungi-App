@@ -1,0 +1,22 @@
+{
+  "entryPoints": [
+    "./src/types/documentation.ts",
+    "./App.tsx",
+    "./src/screens/**/*.tsx",
+    "./src/services/**/*.ts"
+  ],
+  "out": "docs",
+  "exclude": [
+    "**/node_modules/**",
+    "**/docs/**",
+    "**/*.test.*",
+    "**/*.spec.*"
+  ],
+  "includeVersion": true,
+  "readme": "README.md",
+  "name": "IFungi Documentation",
+  "theme": "default",
+  "excludeExternals": true,
+  "excludePrivate": true,
+  "hideGenerator": false
+}
