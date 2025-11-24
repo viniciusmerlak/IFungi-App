@@ -293,7 +293,7 @@ Use o template de issues do GitHub incluindo:
 
 Este projeto está licenciado sob a GPL-3.0 license - veja o arquivo [LICENSE](LICENSE) para detalhes.
 
-## 👥 Equipe e Contato
+##  Contato
 
 **Desenvolvido por:** Vinicius Alexandre Merlak
 **Email:** viniciusmerlak@gmail.com  
